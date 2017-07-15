@@ -3,3 +3,6 @@ SimpleApp/android/
 SimpleApp/ios/
 SimpleApp/.jshintignore
 SimpleApp/home-icon.png
+Calculator/android/
+Calculator/ios/
+Calculator/__tests__/
