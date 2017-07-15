@@ -1,3 +1,5 @@
 SimpleApp/__tests__/
 SimpleApp/android/
 SimpleApp/ios/
+SimpleApp/.jshintignore
+SimpleApp/home-icon.png

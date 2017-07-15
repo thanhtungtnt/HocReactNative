@@ -3,9 +3,9 @@ import React, {Component} from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 
 export default class Detail extends Component{
-	static navigationOptions = {
-		title: 'Chi Tiet'
-	}
+	// static navigationOptions = {
+	// 	title: 'Chi Tiet'
+	// }
 
 	render(){
 		return (

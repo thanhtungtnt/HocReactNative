@@ -15,6 +15,9 @@ export default class Home extends Component{
 				<TouchableOpacity onPress={() => { this.props.navigation.navigate('ManHinh_Detail', {hoten:'Pham Thanh Tung'}) }} style={{backgroundColor:'green'}}>
 					<Text style={{color:'#fff', padding:10}}>Go To Detail</Text>
 				</TouchableOpacity>
+				<TouchableOpacity onPress={() => { this.props.navigation.navigate('DrawerOpen', {hoten:'Pham Thanh Tung'}) }} style={{backgroundColor:'red', marginTop: 20}}>
+					<Text style={{color:'#fff', padding:10}}>Show Menu</Text>
+				</TouchableOpacity>
 			</View>
 			);
 	}
