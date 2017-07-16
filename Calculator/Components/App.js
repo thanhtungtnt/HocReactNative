@@ -36,22 +36,26 @@ class App extends Component {
 	tinhtoan(){
 		if(this.state.pheptinh === '+'){
 			this.setState({
-				ketqua: +this.state.so1 + +this.state.ketqua
+				ketqua: +this.state.so1 + +this.state.ketqua,
+				pheptinh: ''
 			})
 		}
 		if(this.state.pheptinh === '-'){
 			this.setState({
-				ketqua: +this.state.so1 - +this.state.ketqua
+				ketqua: +this.state.so1 - +this.state.ketqua,
+				pheptinh: ''
 			})
 		}
 		if(this.state.pheptinh === 'x'){
 			this.setState({
-				ketqua: +this.state.so1 * +this.state.ketqua
+				ketqua: +this.state.so1 * +this.state.ketqua,
+				pheptinh: ''
 			})
 		}
 		if(this.state.pheptinh === '/'){
 			this.setState({
-				ketqua: +this.state.so1 / +this.state.ketqua
+				ketqua: +this.state.so1 / +this.state.ketqua,
+				pheptinh: ''
 			})
 		}
 	}//end tinhtoan
@@ -107,7 +111,7 @@ class App extends Component {
 						<TouchableOpacity 
 							onPress={()=>{this.clickPhepTinh('x')}}
 							style={ao.nutvang}>
-							<Text style={ao.text}>X</Text>
+							<Text style={ao.text}>x</Text>
 						</TouchableOpacity>
 					</View>
 					<View style={ao.hang2}>
